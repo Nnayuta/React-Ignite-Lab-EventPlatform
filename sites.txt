@@ -1,0 +1,4 @@
+https://www.graphql-code-generator.com/
+https://graphcms.com/
+
+https://graphql.org/
