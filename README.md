@@ -1,8 +1,19 @@
 <h1 align="center">Rocketseat - Ignite Lab | Event Platform</h1>
 <p align="center">Projeto criado durante o evento da <a href="https://www.rocketseat.com.br/">🚀Rocketseat</a> - Ignite lab. Visando criar uma plataforma de eventos em <a href="https://pt-br.reactjs.org/">React</a>
-<p align="center"><a href="https://ignite-lab-event-platform-khaki.vercel.app/">Preview on Vercel</a></p>
 
-  
+
+### Preview
+<p align="center"><a href="https://ignite-lab-event-platform-khaki.vercel.app/">Preview on Vercel</a></p>
+<div>
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_home_pc.png?raw=true" alt="Home PC" width="500" >
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_home_mobile.png?raw=true" alt="Home Mobile" width="200" >
+</div>
+<div>
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_pc.png?raw=true" alt="Event PC" width="500" >
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_mobile.png?raw=true" alt="Event Mobile" width="200" >
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_menu_mobile.png?raw=true" alt="Event Mobile" width="200" >
+</div>
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
