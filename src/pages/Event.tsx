@@ -16,7 +16,7 @@ export const Event: React.FC = () => {
 
     return (
         <div className="flex flex-col min-h-screen">
-            <Header MenuOnClick={handleMenuMobile} />
+            <Header MenuOnClick={handleMenuMobile} mobileMenu={mobileMenu} />
             <main className='flex flex-1'>
                 {slug
                     ? <Video lessonSlug={slug} mobileMenu={mobileMenu} />

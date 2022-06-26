@@ -4,17 +4,17 @@ import { Lesson } from './Lesson';
 import classNames from 'classnames'
 
 interface SidebarProps{
-  mobileMenu?: boolean
+  mobileMenu: boolean
 }
 
-export const Sidebar: React.FC<SidebarProps> = ({ mobileMenu }) => {
+export const Sidebar: React.FC<SidebarProps> = (props) => {
 
   const { data } = useGetLessonsQuery();
 
   return (
     <aside className={classNames('w-[348px] bg-gray-700 p-6 border-l border-gray-600 md:w-full',
     {
-      'md:hidden': mobileMenu
+      'md:hidden': props.mobileMenu
     })}>
       <span className='font-bold text-2xl pb-6 mb-6 border-gray-500 block'>
         Cronograma de aulas
