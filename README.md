@@ -1,7 +1,7 @@
 <h1 align="center">Rocketseat - Ignite Lab | Event Platform</h1>
 <p align="center">Projeto criado durante o evento da <a href="https://www.rocketseat.com.br/">🚀Rocketseat</a> - Ignite lab. Visando criar uma plataforma de eventos em <a href="https://pt-br.reactjs.org/">React</a>
-  
-[Visualize o projeto](https://ignite-lab-event-platform-khaki.vercel.app/)
+<p align="center"><a href="https://ignite-lab-event-platform-khaki.vercel.app/">Preview on Vercel</a></p>
+
   
 ### 🛠 Tecnologias
 
