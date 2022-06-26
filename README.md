@@ -6,10 +6,11 @@
 <p align="center"><a href="https://ignite-lab-event-platform-khaki.vercel.app/">Preview on Vercel</a></p>
 <div>
   <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_home_pc.png?raw=true" alt="Home PC" width="500" >
-  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_home_mobile.png?raw=true" alt="Home Mobile" width="200" >
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_pc.png?raw=true" alt="Event PC" width="500" >
+ 
 </div>
 <div>
-  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_pc.png?raw=true" alt="Event PC" width="500" >
+  <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_home_mobile.png?raw=true" alt="Home Mobile" width="200" >
   <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_mobile.png?raw=true" alt="Event Mobile" width="200" >
   <img src="https://github.com/Nnayuta/React-Ignite-Lab-EventPlatform/blob/master/src/assets/mockup/mockup_event_menu_mobile.png?raw=true" alt="Event Mobile" width="200" >
 </div>
