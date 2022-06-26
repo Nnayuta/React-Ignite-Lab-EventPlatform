@@ -17,10 +17,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [PostCSS](https://postcss.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-  
- ### Autor
----
-
-<a href="https://github.com/Nnayuta">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/81659552?v=4" width="100px;" alt=""/>
-</a>
+ 
