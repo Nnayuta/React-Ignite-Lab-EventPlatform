@@ -22,13 +22,14 @@ export const Lesson: React.FC<LessonProps> = (props) => {
   const isActiveLesson = slug === props.slug;
 
   return (
-    <Link to={`/event/lesson/${props.slug}`} className='group'>
+    <Link to={isLessonAvailable ? `/event/lesson/${props.slug}`: ''} className='group'>
       <span className='text-gray-300 '>
         {availableDateFormatted}
       </span>
 
-      <div className={classNames('rounded border border-gray-500 p-4  mt-2 group-hover:border-green-500', {
-        'bg-green-500': isActiveLesson
+      <div className={classNames('rounded border border-gray-500 p-4  mt-2 ', {
+        'bg-green-500': isActiveLesson,
+        'group-hover:border-green-500': isLessonAvailable
       })}>
         <header className='flex items-center justify-between'>
 
@@ -59,7 +60,7 @@ export const Lesson: React.FC<LessonProps> = (props) => {
           'text-gray-200': !isActiveLesson,
           'text-white-200': isActiveLesson
         })}>
-          {props.title}
+          {isLessonAvailable ? props.title : props.type === 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
         </strong>
       </div>
     </Link>

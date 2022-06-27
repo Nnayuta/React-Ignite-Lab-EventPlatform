@@ -20,13 +20,14 @@ export const Video: React.FC<VideoProps> = (props) => {
   })
 
   if (!data || !data.lesson) {
-    return <div className='flex-1'>
-      <p>Carregando...</p>
-    </div>
+    return (
+    <div className='flex-1 flex justify-center'>
+      <p>Carregando...</p> 
+    </div>)
   }
 
   return (
-    <div className={classNames('flex-1',{
+    <div className={classNames('flex-1', {
       'md:hidden': !props.mobileMenu
     })}>
       <div className='bg-black flex justify-center'>
