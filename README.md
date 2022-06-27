@@ -29,4 +29,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [PostCSS](https://postcss.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+
+### Env Example: '.env.local'
+```env
+  VITE_API_ACCESS_TOKEN="GraphCM API Access Token"
+  VITE_API_URL="GraphCM Content API URL"
+```
+
+### Config file: 'codegen.yaml'
+```yaml
+schema: GraphCM Content API URL
+```
  
